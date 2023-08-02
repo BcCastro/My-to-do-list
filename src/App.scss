@@ -15,7 +15,7 @@ body {
 }
 
 .todo-list {
-  background: #ff29db;
+  background: #09f7ff;
   font-size: 15px;
   max-width: 300px;
   margin: auto;
@@ -27,11 +27,11 @@ body {
 
 
 /** BUTTONS*/
-$colorPink: #00c3ff;
-$colorPinkHover: #02eeff;
+$colorPink: #002e3b;
+$colorPinkHover: #05e6f7;
 
-$colorBlue: #f30071;
-$colorBlueHover: #053368;
+$colorBlue: #b249f8;
+$colorBlueHover: #00152e;
 
 @mixin button($class, $color, $colorHover) {
   
@@ -52,9 +52,10 @@ $colorBlueHover: #053368;
   outline: none;
   padding: 8px;
   font-size: 15px;
-  border: 0px solid;
+  border: none;
   border-radius: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
+border-radius: 8px;
 }
 
 .button[disabled] {
@@ -86,17 +87,16 @@ $colorBlueHover: #053368;
 /** CHECKBOX*/
 /* Shaw : https://codepen.io/shshaw/pen/WXMdwE */
 $duration: 0.4s;
-$stroke: #cbf803;
-$colorText: #6cf3ff;
-$colorTextChecked: #ff960c;
+$stroke: #d792ff;
+$colorText: #000000;
+$colorTextChecked: #000000;
 
 .todo {
   display: block;
   position: relative;
   padding: 1em 1em 1em 16%;
   margin: 0 auto;
-  cursor: pointer;
-  border-bottom: solid 1px #220202;
+  border-bottom: solid 1px #e621ec;
 
   &:last-child {
     border-bottom: none;
