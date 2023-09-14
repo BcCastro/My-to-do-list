@@ -1,12 +1,7 @@
-# Getting Started with Create React App
+My to do list / Mi lista de tareas pendientes
+Es un proyecto creado para adentrarme en el mundo de React.js 
+donde desarrollé diferentes funcionalidades como: agregar un elemento a la lista, poder tacharlo y poder eliminarlo de esta misma. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
